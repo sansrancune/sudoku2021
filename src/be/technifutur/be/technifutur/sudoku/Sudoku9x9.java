@@ -4,10 +4,10 @@ public class Sudoku9x9 implements ISudoku{
 
     char[][] grid = new char[9][9];
 
-    public void gridFiller(char[][] grid){
+    public void gridFiller(){
         for (int i=0; i< grid.length;i++){
             for (int j=0; j< grid.length;i++){
-                grid[i][j]=' ';
+                grid[i][j]=EMPTY;
             }
         }
     }

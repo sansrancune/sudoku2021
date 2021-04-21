@@ -2,6 +2,7 @@ package be.technifutur.be.technifutur.sudoku;
 
 public interface ISudoku {
 
+    public char EMPTY=' ';
     public void addValue(int row, int col, char value);
     public char getValue(int row, int col);
     public boolean isValueValid(char Value);
